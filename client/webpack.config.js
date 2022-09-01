@@ -15,9 +15,16 @@ module.exports = () => {
     },
     output: {
       filename: "bundle.js",
-      path: path.resolve(__dirname, "public"),
+      path: path.resolve(__dirname, "dist"),
     },
-    plugins: [],
+    plugins: [
+      new HtmlWebpackPlugin({
+        template: './index.html',
+        title: 'Webpack Plugin'
+      })
+        
+      
+    ],
 
     module: {
       // Adds CSS loaders and babel to the webpack.
