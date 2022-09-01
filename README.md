@@ -48,6 +48,10 @@ Sources:
 
 [Webpack Dev Server](https://webpack.js.org/configuration/dev-server/)
 
+[webpack-dev-server](https://www.npmjs.com/package/webpack-dev-server)
+
+[webpack-pwa-manifest](https://www.npmjs.com/package/webpack-pwa-manifest)
+
 ## License
 
 [Link to license](./LICENSE)
