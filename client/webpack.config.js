@@ -4,7 +4,7 @@ const path = require("path");
 const { InjectManifest } = require("workbox-webpack-plugin");
 
 
-// TODO: Add and configure workbox plugins for a service worker and manifest file.
+
 
 module.exports = () => {
   return {
@@ -17,6 +17,7 @@ module.exports = () => {
       filename: "[name]bundle.js",
       path: path.resolve(__dirname, "dist"),
     },
+    // Adds and configures workbox plugins for a service worker and manifest file.
     plugins: [
       new HtmlWebpackPlugin({
         template: "./index.html",
