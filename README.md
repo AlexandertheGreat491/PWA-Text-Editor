@@ -44,6 +44,8 @@ Sources:
 
 [@babel/preset-env](https://babeljs.io/docs/en/babel-preset-env)
 
+[HTML Color Picker](https://www.w3schools.com/colors/colors_picker.asp)
+
 [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
 [webpack-cli](https://www.npmjs.com/package/webpack-cli)
