@@ -46,6 +46,8 @@ Sources:
 
 [webpack](https://www.npmjs.com/package/webpack)
 
+[Webpack Dev Server](https://webpack.js.org/configuration/dev-server/)
+
 ## License
 
 [Link to license](./LICENSE)
