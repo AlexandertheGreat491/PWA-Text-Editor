@@ -40,9 +40,11 @@ Collaborators:
 
 Sources:
 
-[morgan](https://www.npmjs.com/package/morgan)
-
 [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+
+[webpack-cli](https://www.npmjs.com/package/webpack-cli)
+
+[webpack](https://www.npmjs.com/package/webpack)
 
 ## License
 
