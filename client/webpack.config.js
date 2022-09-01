@@ -21,6 +21,10 @@ module.exports = () => {
         template: "./index.html",
         title: "Webpack Plugin",
       }),
+      new InjectManifest({
+        swSrc: "./src-sw.js",
+        swDest: "service-worker.js",
+      }),
       new WebpackPwaManifest({
         name: "PWA-Text-Editor Application",
         short_name: "Text Editor",
@@ -30,15 +34,9 @@ module.exports = () => {
         start_url: "./",
         icons: [
           {
-            src: path.resolve("src/images/icon-manifest.png"),
+            src: path.resolve("src/images/logo.png"),
             sizes: [72, 96, 128, 144, 152, 192, 384, 512],
             destination: path.join("assets", "icons"),
-          },
-          {
-            src: path.resolve("src/images/icon-manifest.png"),
-            size: "1024x1024",
-            destination: path.join("assets", "icons"),
-            purpose: "maskable",
           },
         ],
       }),
@@ -65,7 +63,7 @@ module.exports = () => {
               plugins: [
                 "@babel/plugin-proposal-object-rest-spread",
                 "@babel/transform-runtime",
-              ]
+              ],
             },
           },
         },
