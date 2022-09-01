@@ -1,6 +1,8 @@
 {
-  "name": "pwa-text-editor",
+  "name": "client",
+  "version": "1.0.0",
   "private": "true",
+  "description": "text-editor",
   "scripts": {
     "dev": "webpack-dev-server",
     "build": "webpack --mode production",
