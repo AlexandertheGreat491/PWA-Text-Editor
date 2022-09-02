@@ -40,6 +40,8 @@ Collaborators:
 
 Sources:
 
+[arthurbergmz](https://github.com/arthurbergmz/webpack-pwa-manifest/blob/master/README.md)
+
 [@babel/plugin-proposal-object-rest-spread](https://babeljs.io/docs/en/babel-plugin-proposal-object-rest-spread)
 
 [@babel/preset-env](https://babeljs.io/docs/en/babel-preset-env)
