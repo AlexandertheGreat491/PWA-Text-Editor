@@ -68,6 +68,8 @@ Sources:
 
 [webpack plug-ins](https://webpack.js.org/concepts/#plugins)
 
+[workbox recipes](https://developer.chrome.com/docs/workbox/modules/workbox-recipes/)
+
 ## License
 
 [Link to license](./LICENSE)
