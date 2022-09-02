@@ -70,6 +70,8 @@ Sources:
 
 [workbox recipes](https://developer.chrome.com/docs/workbox/modules/workbox-recipes/)
 
+[workbox-webpack-plugin](https://www.npmjs.com/package/workbox-webpack-plugin)
+
 ## License
 
 [Link to license](./LICENSE)
