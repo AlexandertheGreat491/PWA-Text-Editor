@@ -46,6 +46,8 @@ Sources:
 
 [HTML Color Picker](https://www.w3schools.com/colors/colors_picker.asp)
 
+[How to Make a Progressive Web App From Your Existing Website](https://blog.heroku.com/how-to-make-progressive-web-app)
+
 [Loading CSS](https://webpack.js.org/guides/asset-management/#loading-css)
 
 [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
