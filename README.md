@@ -46,6 +46,8 @@ Sources:
 
 [HTML Color Picker](https://www.w3schools.com/colors/colors_picker.asp)
 
+[Loading CSS](https://webpack.js.org/guides/asset-management/#loading-css)
+
 [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
 [webpack-cli](https://www.npmjs.com/package/webpack-cli)
@@ -57,6 +59,8 @@ Sources:
 [webpack-dev-server](https://www.npmjs.com/package/webpack-dev-server)
 
 [webpack-pwa-manifest](https://www.npmjs.com/package/webpack-pwa-manifest)
+
+[webpack plug-ins](https://webpack.js.org/concepts/#plugins)
 
 ## License
 
