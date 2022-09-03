@@ -21,7 +21,13 @@ Provide a short description explaining the what, why, and how of your project. U
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Please use the following steps to install the application:
+
+Step 1: Access the link to the [deployed application](https://nameless-dawn-90589.herokuapp.com/) and you can use the app in your browser.
+
+Step 2: Click the Install button in the app and the app will install directly to your local computer.
+
+Step 3: If you want to make any changes to the application, please visit the [public GitHub repository](https://github.com/AlexandertheGreat491/PWA-Text-Editor.git) and use the command `git clone` to clone the code to your local computer in a folder location of your choosing.
 
 ## Usage
 
