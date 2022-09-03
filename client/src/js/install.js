@@ -5,7 +5,7 @@ const butInstall = document.getElementById("buttonInstall");
 window.addEventListener("beforeinstallprompt", (event) => {
   // defers the prompt until later in the page lifecycle.
   window.deferredPrompt = event;
-  butInstall.style.visibility = "visible";
+  butInstall.style.toggle("hidden", false);
 });
 
 // Click event handler on the `butInstall` element
@@ -26,5 +26,5 @@ butInstall.addEventListener("click", async () => {
 
 // The handler for the `appinstalled` event
 window.addEventListener("appinstalled", (event) => {
-  console.log("Success!", "appinstalled", event);
+  window.deferredPrompt = null;
 });
