@@ -27,6 +27,7 @@ What are the steps required to install your project? Provide a step-by-step desc
 
 Please view the screenshot below to get an idea of how the app can be utilized on your local computer.
 
+![app_screenshot](https://user-images.githubusercontent.com/64184203/188277128-fabf5a16-ea9f-4277-81fe-27a3abd64e8e.jpg)
 
 
 ## Credits
