@@ -23,10 +23,12 @@ module.exports = () => {
         template: "./index.html",
         title: "Webpack Plugin",
       }),
+      // injects the custom service worker from src-sw.js
       new InjectManifest({
         swSrc: "./src-sw.js",
         swDest: "service-worker.js",
       }),
+      // creates a manifest.json file when the app builds
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
