@@ -17,11 +17,9 @@ butInstall.addEventListener("click", async () => {
   }
 
   promptEvent.prompt();
+  
   window.deferredPrompt = null;
-
-  // prevents the console log from reading an error saying that "e.split" isn't a function
-  butInstall.classList.toggle("hidden", true);
-  butInstall.textContent = "Installed!";
+  butInstall.classList.toggle('hidden', true);
 });
 
 // The handler for the `appinstalled` event
