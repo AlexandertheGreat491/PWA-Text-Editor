@@ -12,12 +12,12 @@ Please use this table of contents to help navigate the README.
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+A single page progressive web application text editor.
 
 - What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
+My motiviation for creating this project was to create a single page progressive web application (PWA) that can be used to edit text, while making use of the IndexedDB API to create persistent storage of data within the application.
 - What did you learn?
+I learned how to utilize the client-server paradigm to create a single page PWA, while making use of my prior knowledge of APIs, JavaScript, HTML, and CSS. Additionally learned how the IndexedDB API can be used to create persistent storage within an application.
 
 ## Installation
 
@@ -31,10 +31,9 @@ Step 3: If you want to make any changes to the application, please visit the [pu
 
 ## Usage
 
-Please view the screenshot below to get an idea of how the app can be utilized on your local computer.
+Please view the screenshot below to get an idea of how the app can be utilized on your local computer. Also, please ensure that the steps from the Installation section have been followed.
 
 ![app_screenshot](https://user-images.githubusercontent.com/64184203/188277128-fabf5a16-ea9f-4277-81fe-27a3abd64e8e.jpg)
-
 
 ## Credits
 
@@ -57,6 +56,8 @@ Sources:
 [HTML Color Picker](https://www.w3schools.com/colors/colors_picker.asp)
 
 [How to Make a Progressive Web App From Your Existing Website](https://blog.heroku.com/how-to-make-progressive-web-app)
+
+[IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API)
 
 [Loading CSS](https://webpack.js.org/guides/asset-management/#loading-css)
 
@@ -85,4 +86,3 @@ Sources:
 ## License
 
 [Link to license](./LICENSE)
-
