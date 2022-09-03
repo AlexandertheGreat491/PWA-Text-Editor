@@ -4,8 +4,7 @@
   "description": "text editor",
   "main": "server.js",
   "scripts": {
-    "server": "nodemon server.js --ignore client",
-    "start": "node server.js"
+    "server": "nodemon server.js --ignore client"
   },
   "keywords": [],
   "author": "Alex Van Dyke",
