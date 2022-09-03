@@ -37,7 +37,8 @@ module.exports = () => {
         description: "Edit that text!",
         background_color: "#000000",
         theme_color: "#31a9e1",
-        start_url: "./",
+        start_url: "/",
+        publicPath: "/",
         icons: [
           {
             src: path.resolve("src/images/logo.png"),
